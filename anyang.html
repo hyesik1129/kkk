@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KKK</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1><a href="../index.html">KKK</a></h1>
+  <div class="홈카테고리">
+   <div class="홈카테고리자식"> <a href="../index.html">홈</a></div>
+   <div class="홈카테고리자식"> 공지사항 </div>
+   <div class="홈카테고리자식"> <a href="../scoutingreport.html">스카우팅리포트</a></div>
+   <div class="홈카테고리자식"> 선수랭킹 </div>
+   <div class="홈카테고리자식"> <a href="../matchresult.html">경기결과</a></div>
+   <div class="홈카테고리자식"> 이벤트 </div>
+   <div class="홈카테고리자식"> 영상자료 </div>
+   <div class="홈카테고리자식"> 건의게시판 </div>
+   </div>
+  <div class="리그선택지묶음">
+    <select class="리그구분" name="리그구분네임" onchange="if(this.value)  location.href=this.value;">
+      <option value="kleague2.html">K리그2</option>
+      <option value="../scoutingreport.html">K리그1</option>
+    </select>
+    <select class="k리그2" name="k리그1구단" onchange="if(this.value)  location.href=this.value;">
+      <option value="anyang.html">안양</option>
+      <option value="asan.html">아산</option>
+      <option value="gwangju.html">광주</option>
+      <option value="busan.html">부산</option>
+      <option value="seongnam.html">성남</option>
+      <option value="bucheon.html">부천</option>
+      <option value="suwonfc.html">수원FC</option>
+      <option value="seoule.html">서울E</option>
+      <option value="iansan.html">안산</option>
+      <option value="daejeon.html">대전</option>
+    </select>
+  </div>
+  <div id="로그인">
+   <FORM ACTION="">
+     아이디 : <INput type="text" name="id">
+     비밀번호 : <input type="password" name="pwd">
+   </FORM>
+  </div>
+</body>
+</html>
